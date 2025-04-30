@@ -2,14 +2,17 @@
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
         "ghcr.io/devcontainers/features/powershell:1": {
-        "version": "7.5",
-        "modules": "az"
+            "version": "7.5",
+            "modules": "az"
         },
         "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {
-        "version": "0.31"
+            "version": "0.31"
         },
         "ghcr.io/devcontainers/features/azure-cli:1": {
-        "version": "2.71"
+            "version": "2.71"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12"
         }
     },
     "customizations": {
@@ -18,7 +21,9 @@
                 "github.vscode-github-actions",
                 "redhat.vscode-yaml",
                 "ms-azure-devops.azure-pipelines",
-                "ms-azuretools.vscode-bicep"
+                "ms-azuretools.vscode-bicep",
+                "github.copilot",
+                "github.copilot-chat"
             ],
             "settings": {}
         }
