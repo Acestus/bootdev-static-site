@@ -1,0 +1,26 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+        "ghcr.io/devcontainers/features/powershell:1": {
+        "version": "7.5",
+        "modules": "az"
+        },
+        "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {
+        "version": "0.31"
+        },
+        "ghcr.io/devcontainers/features/azure-cli:1": {
+        "version": "2.71"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.vscode-github-actions",
+                "redhat.vscode-yaml",
+                "ms-azure-devops.azure-pipelines",
+                "ms-azuretools.vscode-bicep"
+            ],
+            "settings": {}
+        }
+    }
+}
