@@ -3,13 +3,7 @@
     "features": {
         "ghcr.io/devcontainers/features/powershell:1": {
             "version": "7.5",
-            "modules": "az"
-        },
-        "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {
-            "version": "0.31"
-        },
-        "ghcr.io/devcontainers/features/azure-cli:1": {
-            "version": "2.71"
+            "modules": "az,PSReadLine"
         },
         "ghcr.io/devcontainers/features/python:1": {
             "version": "3.12"
@@ -21,7 +15,6 @@
                 "github.vscode-github-actions",
                 "redhat.vscode-yaml",
                 "ms-azure-devops.azure-pipelines",
-                "ms-azuretools.vscode-bicep",
                 "github.copilot",
                 "github.copilot-chat"
             ],
